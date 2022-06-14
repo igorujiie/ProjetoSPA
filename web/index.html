@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Igor APP</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <header class="header">
+    
+      <h2>Dados por regiao da Covid-19</h2>
+    </header>
+
+    <div class="container">
+      <form class="my-form">
+        <label id="label" for="cep">Digite um CEP: </label>
+        <input id="input-cep" type="text" data-js="cep" />
+        <button class="button" id="button">Pesquisar</button>
+      </form>
+
+      <div class="output">
+        <p>Estado: <span id="span_estado"></span></p>
+        <p>Casos: <span id="span_casos"></span></p>
+        <p>Mortes: <span id="span_mortes"></span></p>
+        <p>Suspeitos: <span id="span_suspeitos"></span></p>
+        <p>Recusados: <span id="span_recusados"></span></p>
+        <p id="update">Última atualização: <span id="span_atualizacao"></span></p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h4>Igo Kazuhiko Ujiie - Developer</h4> 
+    </footer>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

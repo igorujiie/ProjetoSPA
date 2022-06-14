@@ -1,0 +1,107 @@
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+  }
+  
+  .header {
+    text-align: center;
+    font-size: large;
+    padding: 2%;
+    margin-bottom: 3rem;
+    border-bottom: groove #000;
+    background-color: rgba(75, 209, 243, 0.781);
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header .home {
+    margin-right: 10%;
+    color: rgb(48, 48, 48);
+  }
+  
+  .header .home:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  body {
+    /* background-color: rgba(77, 168, 190, 0.781); */
+    background: url('../ímg/depositphotos_387201424-stock-photo-infected-virus-word-corona-virus.jpg');
+  }
+
+  
+  
+  .container form {
+    margin: 0 2% 0;
+    padding: 2rem 5% 2rem 0;
+    border: solid;
+    border-radius: 1rem;
+    text-align: left;
+    font-size: large;
+    display: flex;
+    background-color: rgb(168, 192, 214);
+  }
+  
+  .container form #label {
+    
+    text-align: center;
+    font-size: 110%;
+    margin: 0 3% 0 1%;
+  }
+  
+  .container form #input-cep {
+    padding-right: 1%;
+    color: #000;
+  }
+  
+  .container form #button {
+    margin-left: 10%;
+    padding: 0.5%;
+    border-radius: 0.4rem;
+    background-color: rgb(65, 65, 65);
+    color: white;
+  }
+  
+  .container form #button:hover {
+    background-color: rgb(35, 35, 35);
+  }
+  
+  .container .output {
+    margin: 0 4% 0;
+    padding: 2rem 5% 2rem 0;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  .container .output #update {
+    padding-top: 5%;
+    text-align: right;
+    font-style: italic;
+    font-size: smaller;
+  }
+  
+  span {
+    color: white;
+  }
+  
+  .footer {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: black;
+    border-top: groove rgba(71, 194, 224, 0.858);;
+    padding-top: 1rem;
+    font-size: large;
+    background-color: rgba(75, 209, 243, 0.781);
+    display: flex;
+    justify-content: center;
+  }
+  p{
+      text-align: center;
+      color: darkgrey;
+  }
